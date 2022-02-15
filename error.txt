@@ -1,0 +1,12 @@
+! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/ankitmankar0/Bridgelab.git'
+
+
+git pull
+
+
+git branch --set-upstream-to=origin/master master
+
+git pull --allow-unrelated-histories
+
+git push
